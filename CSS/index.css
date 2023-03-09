@@ -30,6 +30,50 @@ header {
     box-shadow: 0 0 10px #000;
     background: rgba(0, 0, 0, 0.3);
 }
+nav {
+	background-color: transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 20px 0;
+	z-index: 1;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+nav a:hover {
+	color: #aaa;
+}
+
+@media screen and (max-width: 768px) {
+	nav ul {
+		flex-direction: column;
+		text-align: center;
+	}
+	
+	nav li {
+		margin: 10px 0;
+	}
+}
 
 /* .navbar{
     border-radius: 30px;
