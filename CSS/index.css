@@ -80,6 +80,9 @@ nav a:hover {
         margin: 10px 0;
     }
 }
+.profile{
+    font-color: white;
+}
 
 /* .navbar{
     border-radius: 30px;
@@ -107,6 +110,7 @@ nav a:hover {
     background-color: #E4F9F5;
     position: relative;
     padding: 100px;
+    -webkit-text-fill-color: black;
 }
 
 .middle-container {
